@@ -1,8 +1,8 @@
-GROUP 34
+**GROUP 34**
 
 Getting Started with Temperature Sensor version5.1 and STM32CubeID
 
-Introduction
+**Introduction**
 _________________________________________________________________________________
 
 In this simple getting started how to document, we will be building a simple STM32CUBEID project (code) on a simple Temperature and Humidity Sensor uHAT. At its simplest/basic level the whole process of deploying  a code to the Temperature and Humidity Sensor PCB Version 5.1 consists of two “must do'' steps:
@@ -15,7 +15,7 @@ In this simple getting started how to document, we will be building a simple STM
 A completion of these steps implies that your Temperature and humidity Sensor Ver 5.1 will start to download the container image, begin your application, and start sending logs to your Group34 dashboard. This has got you at least a step towards success!
 
 
-What will you need?
+**What will you need?**
 __________________________________________________________________________________
 
 → A Temperature and Humidity Sensor uHAT Ver5.1. You can also visit or GitHub   
@@ -35,8 +35,7 @@ ________________________________________________________________________________
 
 → Github account   
 
-Account Setup
-______________________________________________________________
+
 
 
 
