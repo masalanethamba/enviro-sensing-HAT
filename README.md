@@ -1,4 +1,20 @@
 **GROUP 34**
+Introduction
+
+TheTemperature-Light sensor is a system that monitors and records
+the temperature and light of a room or any place under consideration such that if the
+temperature and the light are higher than required, the system displays it on the
+computer. Similarly, if the temperature and the light are lower, the system displays it.
+This System can also be connected to external Temperature/Light controllers.
+Temperature/Light controller can be manual or automatic. The former requires full
+human intervention to operate, while the latter requires little or not at all.
+Furthermore, most temperature/light controller and related systems designed make
+used of discrete components design such as timers, counters, decoder drivers and
+thermistor temperature sensor and some use microcontrollers with external analogue
+to digital converter (ADC) which is recommended for this system.
+This system is powerful and very easy-to-program. It has 33-pins, and it has a
+memory of 256-KB I2C of EEPROM data memory, self-programming.
+Operating voltage range between 2V to 5V
 
 Getting Started with Temperature Sensor version5.1 and STM32CubeID
 
