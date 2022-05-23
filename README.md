@@ -22,19 +22,27 @@ Hardware:
 
 → A Temperature and Humidity Sensor uHAT Ver5.1. You can also visit or GitHub repo and check out similar or related
                 models.
+                
 →  18650-5V Li-ion battery for Power supply(optional) .
+
 → A simple micro USB mini cable for access to the CH340G transceiver and debugging
+
 → The micro USB can also be used for power supply.
+
 → Female connectors 
 
 → A syringe for water drops to acknowledge and appreciate the functionality of the sensors.
+
 → The STM32F051 UCT discovery board for the Cortex-M0 microcontroller interfacing.
+
 → A Group34 account/ link
+
 → Github account   
 
 
 Software :
     →  STM32CUBEIDE
+    
      →   Atollic and C are also alternatives but STM32CUBE IDE are strongly recommended
 
 Setting up the Temperature and Humidity Sensor
@@ -45,8 +53,47 @@ Step1: Getting the overall view of the board
 The overall view of the PCB is pretty much self explanatory, with the USB connector at the top and extended layer for the battery holder. On either side of the board there are 33x2 connectors, the first ones are female connectors  for mounting the uHAT on the UCT STM32F051 discovery board. The second are for debugging the board itself in a case of damaged pins. In Between the connectors there is a range of peripherals which include the two analog and digital sensors.
 
 Overall View
+
 ![image](https://user-images.githubusercontent.com/104798529/169913284-c4d1d511-424b-46f6-9c91-e4e7bc53d049.png)
 
 
+Step2: Soldier and connect the female connectors on the board, These female connectors enable the PCB to be logged on the STM32f051 discovery board.
+If soldered and connected correctly you have something like this: 
+
+![image](https://user-images.githubusercontent.com/104798529/169913581-71daf7d9-c91e-494c-8bae-068c3ef2a72a.png)
+
+
+Step 3: Plugging the board to a power source.
+
+This step is a 2 in 1 where we will be powering the PCB using the micro USB and deploying a code for the board to be able send information to the microcontroller.
+
+Plugged board:
+
+![image](https://user-images.githubusercontent.com/104798529/169913617-b8e48cdd-e321-4dad-9b34-6c83d0465e83.png)
+
+
+OPTIONAL:
+The uHAT uses two sources of power, the USB and the Battery. You can also use the 5V Li-ion battery(18650)  but this step is optional because you would still need to connect the USB cable to send and receive information to the microcontroller. 
+
+DEPLOYING THE CODE
+________________________________________________________________________________________________________
+
+This section covers the codes that are supposed to be written on the STM32CUBE IDE which sends this information (code) to the microcontroller, 
+
+Step4 : Run the STM32CUBE IDE
+Open and run the Stm32cube ide and copy and paste the following code on the references.
+1.  
+
+![image](https://user-images.githubusercontent.com/104798529/169913675-653ad4cf-55d7-4585-ab35-4ec0b90a3e93.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/104798529/169913738-c7c8b4e0-acc4-4bdf-848a-bd47e93eebc3.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/104798529/169913753-b95e6fff-f8db-4e82-b0e8-e606707c8348.png)
+
+CONGRATULATIONS🥳, the Temperature and Humidity sensor is now fully functional, you can proceed to test the functionality of the board, we are looking forward to seeing you on version 6.
 
 
