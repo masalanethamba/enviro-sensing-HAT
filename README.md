@@ -1,4 +1,5 @@
 **GROUP 34**
+
 Introduction
 
 TheTemperature-Light sensor is a system that monitors and records
