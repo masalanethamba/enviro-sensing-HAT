@@ -37,6 +37,6 @@ ________________________________________________________________________________
 
 Account Setup
 ______________________________________________________________
-The accounts that are required to a successful project are the Github and Group34 account/link, and you would need to sign up if you have not already done so, the Group34 link: and the Github:
 
-**
+
+
