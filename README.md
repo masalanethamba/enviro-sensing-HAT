@@ -1,6 +1,6 @@
 **GROUP 34**
 
-Introduction
+**Description**
 
 TheTemperature-Light sensor is a system that monitors and records
 the temperature and light of a room or any place under consideration such that if the
@@ -17,7 +17,7 @@ This system is powerful and very easy-to-program. It has 33-pins, and it has a
 memory of 256-KB I2C of EEPROM data memory, self-programming.
 Operating voltage range between 2V to 5V
 
-Getting Started with Temperature Sensor version5.1 and STM32CubeID
+**Getting Started with Temperature Sensor version5.1 and STM32CubeID**
 
 **Introduction**
 _________________________________________________________________________________
