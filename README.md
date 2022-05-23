@@ -17,24 +17,35 @@ A completion of these steps implies that your Temperature and humidity Sensor Ve
 
 **What will you need?**
 __________________________________________________________________________________
+Hardware:
 
-→ A Temperature and Humidity Sensor uHAT Ver5.1. You can also visit or GitHub   
-  models.
-  
-→  18650-5V Li-ion battery for Power supply.
 
-→ A simple micro USB cable for access to the CH340G transceiver and debugging
-
+→ A Temperature and Humidity Sensor uHAT Ver5.1. You can also visit or GitHub repo and check out similar or related
+                models.
+→  18650-5V Li-ion battery for Power supply(optional) .
+→ A simple micro USB mini cable for access to the CH340G transceiver and debugging
 → The micro USB can also be used for power supply.
+→ Female connectors 
 
-→ A syringe for water drops to acknowledge the functionality of sensors.
-
+→ A syringe for water drops to acknowledge and appreciate the functionality of the sensors.
 → The STM32F051 UCT discovery board for the Cortex-M0 microcontroller interfacing.
-
 → A Group34 account/ link
-
 → Github account   
 
+
+Software :
+    →  STM32CUBEIDE
+     →   Atollic and C are also alternatives but STM32CUBE IDE are strongly recommended
+
+Setting up the Temperature and Humidity Sensor
+ _________________________________________________________
+
+Step1: Getting the overall view of the board
+
+The overall view of the PCB is pretty much self explanatory, with the USB connector at the top and extended layer for the battery holder. On either side of the board there are 33x2 connectors, the first ones are female connectors  for mounting the uHAT on the UCT STM32F051 discovery board. The second are for debugging the board itself in a case of damaged pins. In Between the connectors there is a range of peripherals which include the two analog and digital sensors.
+
+Overall View
+![image](https://user-images.githubusercontent.com/104798529/169913284-c4d1d511-424b-46f6-9c91-e4e7bc53d049.png)
 
 
 
